@@ -56,7 +56,7 @@ function App() {
                 type="text" 
                 id="input" 
                 className="bg-white rounded-lg h-[40px] min-w-[220px] md:min-w-[420px] focus:ring-primary-400" autocomplete="off" placeholder="Type your list..." 
-                onChange={e => setData({...data, name: e.target.value})}
+                onChange={e => setData({...data, description: e.target.value})}
                 />
             </div>
             <div className="button-submit">
